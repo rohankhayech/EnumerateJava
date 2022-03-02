@@ -1,5 +1,5 @@
 /**
- * Copyright (C) Rohan Khayech 2022
+ * Copyright (C) 2022 Rohan Khayech
  */
 
 package com.rohankhayech.utils;
