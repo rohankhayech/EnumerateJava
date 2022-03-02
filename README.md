@@ -1,4 +1,4 @@
-# EnumerateJava
+# Enumerate for Java
 
 The Enumerate java class provides a generic method to iterate over an iterable collection, providing access to each element and it's index within the collection. It allows enumeration over a collection similar to the `enumerate()` function in Python.
 
@@ -12,8 +12,8 @@ Enumerate.over(iterable, (item, i) -> {
 });
 ```
 
-The above example uses a lambda expession to define the task to be run each iteration.
-This also allows for the {@code item} and {@code i} parameters to be renamed as required.
+The above example uses a lambda expession to define the task to be performed each iteration.
+This also allows for the `item` and `i` parameters to be renamed as required.
 
 This can also be used to iterate over an array as shown in the below example:
 
