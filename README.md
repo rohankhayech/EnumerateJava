@@ -2,7 +2,7 @@
 
 The Enumerate java class provides a generic method to iterate over an iterable collection, providing access to each element and it's index within the collection. It allows enumeration over a collection similar to the `enumerate()` function in Python.
 
-# Usage
+## Usage
 
 The following pseudo control structure is introduced to enumerate over a collection with minimal complexity when compared to a regular for-each loop:
 
