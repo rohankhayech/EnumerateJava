@@ -6,3 +6,9 @@ build
 
 # Ignore IDE config
 .vscode
+
+# Local files
+local.properties
+
+# Binaries
+lib/bin
