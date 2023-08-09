@@ -38,7 +38,7 @@ list.add("One");
 
 Enumerate.over(list, new Iteration<String>() {
   @Override
-  public void iteration(String item, int i) {
+  public void accept(String item, int i) {
     System.out.println(i+": "item);
   }
 });
