@@ -13,7 +13,12 @@ version = '1.0.0'
 
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        maven(MavenPublication) {
+            groupId = project.group
+            version = project.version
+            artifactId = project.name
+            from components.java
+
             pom {
                 name = 'Enumerate for Java'
                 description = "A Java construct allowing iteration over a collection similar to the enumerate() method in Python providing access to each element and it's index."
@@ -46,5 +51,6 @@ dependencies {
 }
 
 java {
+    jar
     withSourcesJar()
 }
