@@ -43,3 +43,9 @@ Enumerate.over(list, new Iteration<String>() {
   }
 });
 ```
+
+## Installation
+Enumerate for Java is available via the Jitpack.io repository.
+You can find instructions to add it as a dependency to your project [here](https://jitpack.io/#rohankhayech/EnumerateJava).
+
+Alternatively the `jar` files for the latest release can be downloaded [here](https://github.com/rohankhayech/EnumerateJava/releases).
